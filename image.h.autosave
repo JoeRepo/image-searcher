@@ -1,0 +1,15 @@
+#ifndef IMAGE_H
+#define IMAGE_H
+
+#include <QIcon>
+
+class image
+{
+public:
+    image();
+    QIcon thumb;
+    QString path;
+    QString subtext;
+};
+
+#endif // IMAGE_H
